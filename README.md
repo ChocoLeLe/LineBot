@@ -26,7 +26,12 @@
 
 ## 3. 使用技術與環境
 
-* **開發語言**: Node.js
+* **開發語言**: JavaScript
+* **運行環境**: Node.js
+* **核心套件**:
+    * `linebot`: 處理 LINE 訊息通訊
+    * `axios`: 執行非同步 API 請求 (TDX 資料介接)
+    * `dotenv`: 環境變數管理 (安全性設定)
 * **部署平台**: Render
 * **通訊框架**: LINE Messaging API
 
